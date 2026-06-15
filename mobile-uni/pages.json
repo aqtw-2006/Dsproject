@@ -1,0 +1,22 @@
+{
+  "pages": [
+    { "path": "pages/index/index", "style": { "navigationBarTitleText": "首页" } },
+    { "path": "pages/login/index", "style": { "navigationBarTitleText": "登录" } }
+  ],
+  "subPackages": [
+    { "root": "pages/home", "pages": [ { "path": "index" }, { "path": "productList" }, { "path": "productDetail" } ] },
+    { "root": "pages/cart", "pages": [ { "path": "index" } ] },
+    { "root": "pages/order", "pages": [ { "path": "index" }, { "path": "detail" }, { "path": "create" } ] },
+    { "root": "pages/user", "pages": [ { "path": "index" }, { "path": "profile" }, { "path": "address" }, { "path": "settings" } ] }
+  ],
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#ff6b6b",
+    "list": [
+      { "pagePath": "pages/index/index", "text": "首页" },
+      { "pagePath": "pages/cart/index", "text": "购物车" },
+      { "pagePath": "pages/order/index", "text": "订单" },
+      { "pagePath": "pages/user/index", "text": "我的" }
+    ]
+  }
+}

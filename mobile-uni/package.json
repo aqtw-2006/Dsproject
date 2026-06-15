@@ -1,0 +1,21 @@
+{
+  "name": "mobile-uni",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "uni build --watch",
+    "build": "uni build",
+    "h5": "uni build --platform h5",
+    "mp-weixin": "uni build --platform mp-weixin"
+  },
+  "dependencies": {
+    "vue": "^3.4.0",
+    "pinia": "^2.1.6",
+    "axios": "^1.6.2",
+    "uview-plus": "^3.1.8"
+  },
+  "devDependencies": {
+    "@dcloudio/vite-plugin-uni": "^0.14.10",
+    "vite": "^5.0.8",
+    "typescript": "^5.3.3"
+  }
+}
